@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--font-montserrat);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-inter);
+}
+
+.background {
+  background: #F4F4F4;
+}
+
+.input-color {
+  color: #8B8B8B;
+}
+
+.isActive {
+  background: #51BAE8;
+  color: #FFFFFF;
+}
+
+.placeholder-custom::placeholder {
+  color: #8B8B8B;
+}
+
+
