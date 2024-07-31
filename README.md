@@ -1,35 +1,86 @@
-# Next.js + Jest
+# Konecty Test
 
-This example shows how to configure Jest to work with Next.js.
+Este é um projeto de teste para a empresa Konecty. O projeto consiste em uma aplicação web que lista produtos de calçados, permitindo filtragem por marca e busca por nome do produto. A aplicação foi desenvolvida usando Next.js, React, Tailwind CSS, e realiza chamadas para uma API REST para obter os produtos.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+## Tecnologias Utilizadas
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Axios
+- Jest
 
-## Deploy your own
+## Estrutura do Projeto
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
+```plaintext
+konecty-test/
+├── __mocks__/
+│   └── products.json
+├── src/
+│   ├── components/
+│   │   ├── Badge.tsx
+│   │   ├── ProductCard.tsx
+│   │   └── ...
+│   ├── pages/
+│   │   ├── api/
+│   │   │   ├── products.ts
+│   │   │   └── products.test.ts
+│   │   ├── index.tsx
+│   │   └── index.test.tsx
+│   └── types/
+│       └── Product.ts
+├── package.json
+├── tailwind.config.js
+└── ...
 ```
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+## Funcionalidades
+
+- **Listagem de Produtos:** Exibe uma lista de produtos de tenis.
+- **Filtragem por Categoria:** Permite filtrar produtos por marca.
+- **Pesquisa por Nome do Produto:** Permite buscar produtos pelo nome.
+
+## Instalação
+
+Para instalar e rodar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
 
 ```bash
-pnpm create next-app --example with-jest with-jest-app
+git clone https://github.com/seu-usuario/konecty-test.git
 ```
 
-## Running Tests
+2. Navegue até o diretório do projeto:
 
 ```bash
-npm test
+cd konecty-test
 ```
+
+3. Instale as dependências:
+
+```bash
+npm i
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O aplicativo estará disponível em `http://localhost:3000`.
+
+## Testes
+
+O projeto utiliza Jest para testes unitários. Para rodar os testes, use o comando:
+
+```bash
+npm run test
+```
+
+### Estrutura dos Testes
+
+- **API Tests:** Os testes para a API estão localizados em `src/pages/api/products.test.ts`.
+- **Component Tests:** Os testes para os componentes estão localizados em `src/components/ProductCard.test.tsx`.
+- **Page Tests:** Os testes para a página principal estão localizados em `src/pages/index.test.tsx`.
