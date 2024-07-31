@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "mark": "Nike",
+    "description": "Air Force 1 Jester XX Black Sonic Yellow",
+    "price": 96,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/nike-1.png"
+  },
+  {
+    "id": 2,
+    "mark": "Converse",
+    "description": "Run Star Hike Three Color Unisex",
+    "price": 85.5,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/converse.png"
+  },
+  {
+    "id": 3,
+    "mark": "Nike",
+    "description": "Air Jordan 1 Retro High Obsidian UNC",
+    "price": 196,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/nike-3.png"
+  },
+  {
+    "id": 4,
+    "mark": "Nike",
+    "description": "Air Force 1 Shadow Beige Pale Ivory",
+    "price": 115,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/nike-2.png"
+  },
+  {
+    "id": 5,
+    "mark": "New Balance",
+    "description": "Air Force 1 Jester XX Black Sonic Yellow ...",
+    "price": 96,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/new-balance.png"
+  },
+  {
+    "id": 6,
+    "mark": "Asics",
+    "description": "Air Force 1 Jester XX Black Sonic Yellow ...",
+    "price": 96,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/asics.png"
+  },
+  {
+    "id": 7,
+    "mark": "Nike",
+    "description": "Air Force 1 Jester XX Black Sonic Yellow",
+    "price": 96,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/nike-1.png"
+  },
+  {
+    "id": 8,
+    "mark": "Converse",
+    "description": "Run Star Hike Three Color Unisex",
+    "price": 85.5,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/converse.png"
+  },
+  {
+    "id": 9,
+    "mark": "Nike",
+    "description": "Air Jordan 1 Retro High Obsidian UNC",
+    "price": 196,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/nike-3.png"
+  },
+  {
+    "id": 10,
+    "mark": "Nike",
+    "description": "Air Force 1 Shadow Beige Pale Ivory",
+    "price": 115,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/nike-2.png"
+  },
+  {
+    "id": 11,
+    "mark": "Nike",
+    "description": "Air Force 1 Jester XX Black Sonic Yellow",
+    "price": 96,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/nike-1.png"
+  },
+  {
+    "id": 12,
+    "mark": "Converse",
+    "description": "Run Star Hike Three Color Unisex",
+    "price": 85.5,
+    "img": "https://pub-600236de218b4c7ba5f493c818f764f2.r2.dev/converse.png"
+  }
+]
